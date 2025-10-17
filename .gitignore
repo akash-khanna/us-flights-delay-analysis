@@ -1,0 +1,9 @@
+# macOS system files
+.DS_Store
+
+# Ignore ipynb checkpoints
+.ipynb_checkpoints/
+
+# Ignore everything in data folder except one file
+data/*
+!data/sample_flights_data.csv
